@@ -1,6 +1,9 @@
 TEMPLATE = subdirs
+#BUILD_TEST_PLUGINS = TESTS
 
-BUILD_TEST_PLUGINS = TESTS
+SUBDIRS += QtCoinTrader
+
+
 CONFIG+= c++11
 
 if( defined( BUILD_TEST_PLUGINS,var ) ){
